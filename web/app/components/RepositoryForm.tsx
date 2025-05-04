@@ -222,7 +222,7 @@ const RepositoryForm: React.FC<RepositoryFormProps> = ({
               },
               {
                 label: 'DeepSeek-V3',
-                value: 'DeepSeek-V3',
+                value: 'deepseek-chat',
               },
             ]}
           >
