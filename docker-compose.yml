@@ -4,7 +4,7 @@
     ports:
       - 8080:8080
     volumes:
-      - ./repositories:/repositories
+      - ./koala_wiki_repositories:/koala_wiki_repositories
       - ./data:/data
     build:
       context: .
