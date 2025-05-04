@@ -14,7 +14,7 @@ public class GitService
         var organization = segments[1].Trim('/');
         var repositoryName = segments[2].Trim('/').Replace(".git", "");
 
-        // 拼接本地路径，默认使用"/repositories"，
+        // 拼接本地路径，默认使用"koala_wiki_repositories"
         var repositoryPath = Path.Combine(Constant.GitPath, organization, repositoryName);
         return (repositoryPath, organization);
     }
